@@ -1,0 +1,20 @@
+{
+  "crons": [
+    {
+      "path": "/api/ingest/civic",
+      "schedule": "0 12 * * *"
+    },
+    {
+      "path": "/api/ingest/channels",
+      "schedule": "0 13 * * *"
+    },
+    {
+      "path": "/api/watch/run",
+      "schedule": "40 10 * * *"
+    },
+    {
+      "path": "/api/watch/digest",
+      "schedule": "40 12 * * 1"
+    }
+  ]
+}

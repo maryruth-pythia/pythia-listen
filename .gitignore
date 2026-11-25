@@ -1,0 +1,15 @@
+node_modules
+.next
+.env.local
+.env*.local
+data/runtime
+*.log
+.DS_Store
+.vercel
+out
+build
+dist
+tsconfig.tsbuildinfo
+
+# Temp files a FUSE-mounted folder leaves behind when an open file is replaced (one held a copy of .env.local)
+.fuse_hidden*

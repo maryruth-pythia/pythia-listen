@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Leaflet's CSS — required for tile / control layout. Loaded here so it
+ * applies on every page and is bundled by Tailwind's pipeline. */
+@import 'leaflet/dist/leaflet.css';
+
+:root {
+  --foreground: 26 26 26;
+  --background: 255 255 255;
+}
+
+html, body {
+  background: rgb(var(--background));
+  color: rgb(var(--foreground));
+}
+
+body {
+  font-feature-settings: 'kern', 'liga', 'calt';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle reading rhythm */
+.prose-pythia p { line-height: 1.6; }
+.prose-pythia h1, .prose-pythia h2, .prose-pythia h3 { color: #1F1330; }
+
+/* Signature reeded gradient — the animated "prism" atmosphere (brand v4).
+ * Amber → magenta → purple, with fine fluting and light sweeping across it. */
+.pythia-reeded {
+  position: relative;
+  background: linear-gradient(90deg, #FCC029, #EC2BFC, #6A0FC2, #EC2BFC, #FCC029);
+  background-size: 220% 100%;
+  animation: pythia-reedsweep 11s ease-in-out infinite alternate;
+}
+.pythia-reeded::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(90deg,
+    rgba(255,255,255,.16) 0 1px, rgba(255,255,255,.03) 1px 3px,
+    rgba(0,0,0,.14) 3px 6px, rgba(255,255,255,.03) 6px 8px);
+  mix-blend-mode: soft-light;
+}
+@keyframes pythia-reedsweep {
+  from { background-position: 0% 50%; }
+  to   { background-position: 100% 50%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pythia-reeded { animation: none; }
+}

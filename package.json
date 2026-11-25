@@ -1,0 +1,53 @@
+{
+  "name": "pythia-listen",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pythia Listen-phase conversational AI demo — community-side AI listening + operator dashboard.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:init": "tsx lib/seed.ts",
+    "db:demo": "tsx lib/seed-demo.ts",
+    "db:migrate": "tsx scripts/migrate.ts",
+    "ingest:civic": "tsx scripts/ingest-civic.ts",
+    "health": "tsx scripts/health-check.ts",
+    "db:seed-org": "tsx scripts/seed-org.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.1",
+    "@fal-ai/client": "^1.6.2",
+    "@neondatabase/serverless": "^0.10.4",
+    "better-auth": "^1.6.25",
+    "kokoro-js": "^1.2.1",
+    "leaflet": "^1.9.4",
+    "mammoth": "^1.12.0",
+    "next": "^15.5.22",
+    "pdf-parse": "^2.4.5",
+    "pg": "^8.22.0",
+    "qrcode.react": "^4.2.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-leaflet": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.12",
+    "@types/node": "^22.7.5",
+    "@types/pg": "^8.20.0",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.20",
+    "dotenv": "^17.4.2",
+    "postcss": "^8.5.24",
+    "tailwindcss": "^3.4.13",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  },
+  "overrides": {
+    "sharp": "0.35.3",
+    "form-data": "^4.0.6",
+    "esbuild": "^0.28.1",
+    "postcss": "$postcss"
+  }
+}

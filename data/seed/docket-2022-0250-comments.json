@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "source": "Hawaii PUC Docket 2022-0250 — Energy Equity Docket — Public Comment Tracker (https://puc.hawaii.gov/energy/equity/docket-no-2022-0250-public-comment-tracker/)",
+    "note": "These are paraphrased / composite samples of community-side concerns surfaced in the docket and in publicly reported Hawaii energy-equity discussions. Pythia uses them to seed the AI's awareness of what concerns are out there in real Hawaii energy proceedings — they are NOT shown verbatim to participants. Replace with verbatim docket extracts when available.",
+    "lastUpdated": "2026-05-06"
+  },
+  "comments": [
+    {
+      "id": "ee-001",
+      "text": "Renters and people without property tax records never see the public-hearing notices. The mail-based notification model misses the people who live closest to the sites.",
+      "source": "Energy Equity Docket — community comment, paraphrased",
+      "stakeholderType": "Renter / housing advocate"
+    },
+    {
+      "id": "ee-002",
+      "text": "Native Hawaiian voices and 'Olelo Hawai'i materials are mostly absent from project consultations. When Hawaiian is used, it is symbolic, not substantive.",
+      "source": "Energy Equity Docket — community comment, paraphrased",
+      "stakeholderType": "Native Hawaiian community member"
+    },
+    {
+      "id": "ee-003",
+      "text": "We support clean energy. We do not support clean energy projects that bypass community decision-making about which lands are used and how.",
+      "source": "Energy Equity Docket — community comment, paraphrased",
+      "stakeholderType": "Local resident"
+    },
+    {
+      "id": "ee-004",
+      "text": "By the time the EIS scoping meeting happens, the site has already been chosen. The decisions that matter — what land, what scale, what footprint — were made before any of us were asked.",
+      "source": "Energy Equity Docket — community comment, paraphrased",
+      "stakeholderType": "Affected resident"
+    },
+    {
+      "id": "ee-005",
+      "text": "The Community Benefits Package is welcome, but $3,000 per megawatt per year is a small fraction of project revenue and the distribution mechanism is unclear. Who gets to say what 'community priority' means?",
+      "source": "Energy Equity Docket — community comment, paraphrased",
+      "stakeholderType": "Local nonprofit"
+    },
+    {
+      "id": "ee-006",
+      "text": "Public comment portals fill with anonymous and out-of-state commenters. There is no way to tell whose voice is whose.",
+      "source": "Energy Equity Docket — community comment, paraphrased",
+      "stakeholderType": "Local resident"
+    },
+    {
+      "id": "ee-007",
+      "text": "Past consultations have asked for input after the developer had already committed to a site and a design. We had nothing to shape — only something to oppose.",
+      "source": "Energy Equity Docket — community comment, paraphrased",
+      "stakeholderType": "Community organiser"
+    },
+    {
+      "id": "ee-008",
+      "text": "Agricultural-zoned land matters here. Solar on prime ag land is not the same as solar on industrial land. The decision about which land we sacrifice is a community decision, not a developer decision.",
+      "source": "Energy Equity Docket — community comment, paraphrased",
+      "stakeholderType": "Farmer / land-use stakeholder"
+    },
+    {
+      "id": "ee-009",
+      "text": "We need reliable power and lower bills as much as anyone. Some projects could deliver that. But we need processes that let us evaluate whether THIS project will, before it's built.",
+      "source": "Energy Equity Docket — community comment, paraphrased",
+      "stakeholderType": "Local resident, small business owner"
+    },
+    {
+      "id": "ee-010",
+      "text": "Indigenous governance authorities, where they exist, are routinely sidelined or misrepresented in the consultation record. We are described as 'consulted' when we have not been.",
+      "source": "Energy Equity Docket — community comment, paraphrased",
+      "stakeholderType": "Native Hawaiian governance representative"
+    },
+    {
+      "id": "ee-011",
+      "text": "Construction timing matters. Projects that disrupt cultural practice schedules, fishing seasons, or harvest cycles damage trust even when the long-term benefits would be real.",
+      "source": "Energy Equity Docket — community comment, paraphrased",
+      "stakeholderType": "Cultural practitioner"
+    },
+    {
+      "id": "ee-012",
+      "text": "Translation matters. Materials in 'Olelo Hawai'i are not a courtesy; they are basic respect for the people whose land this is. English-only materials send a message about who is and isn't part of the conversation.",
+      "source": "Energy Equity Docket — community comment, paraphrased",
+      "stakeholderType": "Native Hawaiian advocate"
+    }
+  ]
+}
